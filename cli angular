@@ -1,0 +1,4 @@
+ npm --version     - It is used to check the version of nodejs 
+ 2. npm install @angular/cli@latest  - It is used to install angular cli
+ 3. ng new project_name      - It is used to create new angular project
+ 4. ng serve        - It is used to compile the code (Make sure you are in correct directory before executing this command)
