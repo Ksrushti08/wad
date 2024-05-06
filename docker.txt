@@ -1,0 +1,15 @@
+index.js file madhe 
+
+FROM node:alpine
+Copy . /partb
+CMD node/partb/index.js
+
+
+Docker file
+console.log("Name:SK")
+
+
+commands
+docker --version
+node index.js
+docker build -t partb
