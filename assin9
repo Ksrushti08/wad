@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>JQuery Mobile</title>
+</head>
+<body>
+    <!-- Index.html -->
+     <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>International Institute Of Information Technology(I²IT)</h1>
+            <h4>Approved by AICTE | Recognized by DTE, Govt. of Maharashtra <br> Affiliated to the Savitribai Phule Pune University <br>
+
+                Accredited by NAAC | NBA Accredited - 2 UG Programmes <br>
+                Recognized u/s 2(f) of the UGC Act, 1956</h4>
+        </div>
+        <!-- Navbar -->
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dept">Department</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+
+        <!-- contents -->
+        <div data-role="content" id="about">
+            <h3 style="color :green">Welcome to I2IT </h3>
+            <p style="text-align: justify;">The International Institute of Information Technology (I²IT), Pune [pronounced as I Square IT] was established by Late Shri. P. P. Chhabria, Founder Chairman of Finolex Group of Industries, a well-known philanthropist, and former President of Mahratta Chamber of Commerce, Industries and Agriculture (MCCIA). 
+                As a world-class academy to impart high-end education in Engineering and Technology the Institute has strived to meet the growing needs of the industry. 
+                Established on 10 acres of land, this institute equips students to accept challenges in the areas of Information Technology, Engineering and other niche areas of expertise.</p>
+        </div>
+        <div data-role="content" id="dept">
+            <h3>Vision</h3>
+            <p>I²IT aspires to be an academic leader recognized for innovation and quality in teaching holding high moral values and opportunities for both the students and the institution.</p>
+        </div>
+
+        <div data-role="content" id="dept">
+            <h3>Mission</h3>
+            <p>To formulate and bestow students to be competent by helping them develop the knowledge, skills and abilities required to progress within the workforce and to adapt and prosper in our increasingly diverse and ever-changing world
+
+                To encourage, progress, spread and utilize knowledge in order to provide access to quality education for diverse group of students and to unite individuals for long-lasting wisdom and to contribute to the growth of the society and the individual
+                
+                To provide an intellectually inspiring learning skills through effective teaching, research and service facilitating students to pursue certainty and gain knowledge and skills necessary for establishing fruitful careers and becoming responsible people in the society</p>
+        </div>
+
+
+       
+
+
+        <!-- Footer -->
+       
+            <div data-role="footer">
+                <h3>Quick Access</h3>
+         <center>
+                <a href="#home">Home</a><br>
+                <a href="#about">About</a><br>
+                <a href="#dept">Department</a><br>
+                <a href="#contact">Contact</a><br>
+                 <h6>All rights are reserve with admissions@isquareit.edu.in</h6>
+        </center>
+    </div>
+     </div>
+
+
+     <!-- Index.html -->
+     <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>International Institute Of Information Technology(I²IT)</h1>
+            <h4>Approved by AICTE | Recognized by DTE, Govt. of Maharashtra <br> Affiliated to the Savitribai Phule Pune University <br>
+
+                Accredited by NAAC | NBA Accredited - 2 UG Programmes <br>
+                Recognized u/s 2(f) of the UGC Act, 1956</h4>
+        </div>
+        <!-- Navbar -->
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dept">Department</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+
+         <!-- content -->
+         <center>
+            <div data-role="content">
+                <div class="row">
+                    <img src="./Main-Gate-Photo-1.jpg" alt="id">
+                    <img src="./I2IT-Infrastructure.jpg" alt="">
+                </div>
+            </div>
+
+         </center>
+        
+
+        
+        <!-- Footer -->
+       
+        <div data-role="footer">
+            <h3>Quick Links</h3>
+     <center>
+            <a href="#home">Home</a><br>
+            <a href="#about">About</a><br>
+            <a href="#dept">Department</a><br>
+            <a href="#contact">Contact</a><br>
+             <h6>All rights are reserve with admissions@isquareit.edu.in</h6>
+    </center>
+</div>
+ </div>
+    
+</body>
+</html>
